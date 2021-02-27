@@ -1,0 +1,99 @@
+/*.image {
+	position: absolute;
+	overflow: hidden;
+	position: absolute; 
+	top: 29%; 
+	left: 50%; 
+	margin-right: -50%; 
+	transform: translate(-50%, -50%); 
+}*/
+
+body {
+	background-color: #0B1121;
+}
+
+.image{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: fixed;
+}
+
+.top-buttons a{
+	float:right;
+}
+
+.top-buttons a,
+.top-buttons a:hover,
+.top-buttons a:active,
+.top-buttons a:visited,
+.top-buttons a:-webkit-any-link,
+a:-webkit-any-link 
+ {
+	color: white;
+}
+
+.middleContainer {
+	position: absolute; 
+	top: 50%; 
+	left: 50%; 
+	margin-right: -50%; 
+	transform: translate(-50%, -50%);
+	overflow: none;
+}
+
+#remainingHeight {
+	background-color:#0C1121;
+	position: absolute;
+	top:0px;
+	bottom:0px;
+	width: 100%;
+	z-index:0;
+}
+
+/*.submitButton {
+	height:20px; 
+	position:absolute; 
+	margin: -20px -50px; 
+	width:120px; 
+	top:70%; 
+	left:50%;
+}*/
+
+.buttonContainer {
+	text-align: center;
+}
+
+.searchBar {
+	height:30px; 
+	position:absolute; 
+	margin: -20px -50px; 
+	width:400px; 
+	top:20%; 
+	left:50%;
+	transform: translate(-38%);
+}
+
+.topButtons {
+	top: 10%;
+	right: 10%;
+	color: white;
+}
+
+#wrapper{
+	width:100%; 
+	height:100px;}
+
+
+/* ADVANCED SEARCH CSS */
+.title {
+	min-width: 200px;
+	height: 20px;
+	line-height: 15px;
+	vertical-align: middle;
+	color: white;
+}
+
+.field {
+
+}
